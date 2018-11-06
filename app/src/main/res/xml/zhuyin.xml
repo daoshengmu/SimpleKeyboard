@@ -5,57 +5,60 @@
     android:keyHeight="60dp"
     >
     <Row>
-        <Key android:codes="8" android:keyLabel="ㄅ" android:keyEdgeFlags="left"/>
-        <Key android:codes="9" android:keyLabel="ㄉ"/>
-        <Key android:codes="10" android:keyLabel="ˇ"/>
-        <Key android:codes="11" android:keyLabel="ˋ"/>
-        <Key android:codes="12" android:keyLabel="ㄓ"/>
-        <Key android:codes="13" android:keyLabel="ˊ"/>
-        <Key android:codes="14" android:keyLabel="˙"/>
-        <Key android:codes="15" android:keyLabel="ㄚ"/>
-        <Key android:codes="16" android:keyLabel="ㄞ"/>
-        <Key android:codes="7" android:keyLabel="ㄢ" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x3105" android:keyLabel="ㄅ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x3109" android:keyLabel="ㄉ"/>
+        <Key android:codes="0x02C7" android:keyLabel="ˇ"/>
+        <Key android:codes="0x02CB" android:keyLabel="ˋ"/>
+        <Key android:codes="0x3113" android:keyLabel="ㄓ"/>
+        <Key android:codes="0x02CA" android:keyLabel="ˊ"/>
+        <Key android:codes="0x02D9" android:keyLabel="˙"/>
+        <Key android:codes="0x311A" android:keyLabel="ㄚ"/>
+        <Key android:codes="0x311E" android:keyLabel="ㄞ"/>
+        <Key android:codes="0x3122" android:keyLabel="ㄢ" />
+        <Key android:codes="0x3126" android:keyLabel="ㄦ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="w"/>
-        <Key android:codes="101" android:keyLabel="e"/>
-        <Key android:codes="114" android:keyLabel="r"/>
-        <Key android:codes="116" android:keyLabel="t"/>
-        <Key android:codes="121" android:keyLabel="y"/>
-        <Key android:codes="117" android:keyLabel="u"/>
-        <Key android:codes="105" android:keyLabel="i"/>
-        <Key android:codes="111" android:keyLabel="o"/>
-        <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x3106" android:keyLabel="ㄆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x310A" android:keyLabel="ㄊ"/>
+        <Key android:codes="0x310D" android:keyLabel="ㄍ"/>
+        <Key android:codes="0x3110" android:keyLabel="ㄐ"/>
+        <Key android:codes="0x3114" android:keyLabel="ㄔ"/>
+        <Key android:codes="0x3117" android:keyLabel="ㄗ"/>
+        <Key android:codes="0x3127" android:keyLabel="ㄧ"/>
+        <Key android:codes="0x311B" android:keyLabel="ㄛ"/>
+        <Key android:codes="0x311F" android:keyLabel="ㄟ"/>
+        <Key android:codes="0x3123" android:keyLabel="ㄣ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="97" android:keyLabel="a" android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="s"/>
-        <Key android:codes="100" android:keyLabel="d"/>
-        <Key android:codes="102" android:keyLabel="f"/>
-        <Key android:codes="103" android:keyLabel="g"/>
-        <Key android:codes="104" android:keyLabel="h"/>
-        <Key android:codes="106" android:keyLabel="j"/>
-        <Key android:codes="107" android:keyLabel="k"/>
-        <Key android:codes="108" android:keyLabel="l"/>
-        <Key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x3107" android:keyLabel="ㄇ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x310B" android:keyLabel="ㄋ"/>
+        <Key android:codes="0x310E" android:keyLabel="ㄎ"/>
+        <Key android:codes="0x3111" android:keyLabel="ㄑ"/>
+        <Key android:codes="0x3115" android:keyLabel="ㄕ"/>
+        <Key android:codes="0x3118" android:keyLabel="ㄘ"/>
+        <Key android:codes="0x3128" android:keyLabel="ㄨ"/>
+        <Key android:codes="0x311C" android:keyLabel="ㄜ"/>
+        <Key android:codes="0x3120" android:keyLabel="ㄠ" />
+        <Key android:codes="0x3124" android:keyLabel="ㄤ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z"/>
-        <Key android:codes="120" android:keyLabel="x"/>
-        <Key android:codes="99" android:keyLabel="c"/>
-        <Key android:codes="118" android:keyLabel="v"/>
-        <Key android:codes="98" android:keyLabel="b"/>
-        <Key android:codes="110" android:keyLabel="n"/>
-        <Key android:codes="109" android:keyLabel="m"/>
-        <Key android:codes="46" android:keyLabel="."/>
-        <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x3108" android:keyLabel="ㄈ"/>
+        <Key android:codes="0x310C" android:keyLabel="ㄌ"/>
+        <Key android:codes="0x310F" android:keyLabel="ㄏ"/>
+        <Key android:codes="0x3112" android:keyLabel="ㄒ"/>
+        <Key android:codes="0x3116" android:keyLabel="ㄖ"/>
+        <Key android:codes="0x3119" android:keyLabel="ㄙ"/>
+        <Key android:codes="0x3129" android:keyLabel="ㄩ" />
+        <Key android:codes="0x311D" android:keyLabel="ㄝ"/>
+        <Key android:codes="0x3121" android:keyLabel="ㄡ"/>
+        <Key android:codes="0x3125" android:keyLabel="ㄥ" android:keyEdgeFlags="right"/>
+        <!--<Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>-->
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyLabel="ㄧ聲" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
